@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
         });
 
         const list = row.map((listItem) => `<li>${listItem}</li>`)
-        console.log(list)
+
         res.send(`
             <h1>Full Cycle</h1>
             <ul>

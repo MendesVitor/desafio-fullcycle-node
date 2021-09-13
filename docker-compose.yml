@@ -10,7 +10,7 @@ services:
     networks: 
       - node-challenge-network
     volumes: 
-      - ./node:/usr/src/app
+      - /usr/src/app
     tty: true
     ports: 
      - "3000:3000"
